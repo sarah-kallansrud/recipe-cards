@@ -12,7 +12,10 @@ body {
 
 header {
     background-color: white;
+    width: 1000px;
     text-align: center;
+    margin: 0 auto;
+   
     
 }
 
@@ -115,4 +118,41 @@ main {
 
 .time strong {
     font-family: "Montserrat", sans-serif;
+}
+
+.columns {
+    overflow: auto;
+}
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px;
+    margin-right: 13px;
+}
+
+.recipe h3 {
+    padding: 7px;
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #f16059;
+    text-transform: uppercase;
+
+}
+
+ul {
+    padding-left: 15px;
+    line-height: 24px;
+    list-style-type: square;
+}
+
+ol {
+    padding-left: 15px;
+    line-height: 22px;
 }
